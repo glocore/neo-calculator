@@ -41,15 +41,15 @@ body {
 }
 
 .display {
-  width: 504px;
-  height: 120px;
+  width: 378px;
+  height: 90px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.9);
   text-align: right;
-  font-size: 65px;
+  font-size: 49px;
   font-family: "Seven", sans-serif;
   font-weight: 300;
   color: #ff9d56;
@@ -67,14 +67,14 @@ body {
 .grid {
   display: grid;
   grid-gap: 8px;
-  grid-template-columns: repeat(4, 120px);
-  grid-template-rows: repeat(5, 120px);
+  grid-template-columns: repeat(4, 90px);
+  grid-template-rows: repeat(5, 90px);
 }
 
 .button {
-  width: 120px;
-  height: 120px;
-  padding: 15px;
+  width: 90px;
+  height: 90px;
+  padding: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,7 +85,7 @@ body {
 }
 
 .button.zero {
-  width: 248px;
+  width: 186px;
   grid-column-start: 1;
   grid-column-end: 3;
 }
@@ -99,7 +99,7 @@ body {
   padding: 0;
   border: 3px solid #d1d0cc;
   border-radius: 75px;
-  font-size: 64px;
+  font-size: 48px;
   box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.1),
     -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
 }
@@ -125,7 +125,7 @@ body {
     rgba(26, 24, 26, 0.9)
   );
   color: #d1d0cc;
-  font-size: 56px;
+  font-size: 42px;
 }
 
 .button:active .button-texture.number {
