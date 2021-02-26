@@ -1,6 +1,6 @@
 # neo-calculator
 
-Calculator with neomorphic design.
+Calculator with neumorphic design.
 
 [Live demo](https://neo-calculator.netlify.app/)
 
